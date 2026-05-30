@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Note</title>
+</head>
+<body>
+
+<h2>Edit Note</h2>
+
+<form method="POST">
+    <input type="text" name="content" value="{{ note.content }}" required>
+    <button type="submit">Update</button>
+</form>
+
+<br>
+<a href="/dashboard">Back</a>
+
+</body>
+</html>
