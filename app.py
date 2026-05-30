@@ -4,7 +4,7 @@ from flask_bcrypt import Bcrypt
 from functools import wraps
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:TodoApp123!@todo-app-db.c91e2qggg0ia.ap-southeast-2.rds.amazonaws.com:3306/tododb'
 app.config['SECRET_KEY'] = 'secretkey'
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
