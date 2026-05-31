@@ -61,8 +61,9 @@ gunicorn --workers 3 --bind 0.0.0.0:5000 app:app
 ```
 
 ## Live Demo
-- **URL:** http://3.107.76.113
-- **Load Balancer:** (your ALB DNS)
+- **URL:** https://farzeena.3.107.76.113.nip.io
+- **Load Balancer:** http://todo-app-alb-xxxxxxxx.ap-southeast-2.elb.amazonaws.com
+
 
 ## Author
 Farzeena
